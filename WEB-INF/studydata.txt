@@ -1,0 +1,3 @@
+1|Study_1|2/22/2016|kshah39@uncc.edu|Who will be the president?|3|2|study_description_example|In progress|Text|Trump,Hillary,Jebb
+2|Study_2|2/20/2016|rohan@uncc.edu|Who is best athlete?|5|5|study_description_example_2|Finished|Text|Tendulkar,Bolt,Djokovic,Nehwal,Hunt
+2|Study_3|2/21/2016|kshah39@uncc.edu|Who will be the pm?|3|3|study_description_example|finished|Text|Modi,Rahulbaba,kejru

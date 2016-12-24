@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/Assignment4">
+  <Resource allowCasualMultipartParsing="true" auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/nbad3" password="a2Zxlyb5fv6t" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://127.7.146.2:3306/nbad3" username="adminptXj2mH"/>
+</Context>

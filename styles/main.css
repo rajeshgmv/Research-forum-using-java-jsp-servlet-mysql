@@ -1,0 +1,518 @@
+/**
+ *  Document: aboutl.jsp
+ *	Created On: Feb 4, 2016
+ *	Authors: Deepak Rohan
+ */
+/*Common CSS***************************/
+
+body {
+    min-height: 100%;
+    margin:0 auto;
+
+    clear: both;
+}
+
+table, th, td{
+
+    border:1px solid white;
+    padding: 1em;
+    border-collapse: collapse;
+
+}
+tr:nth-child(even) {
+    background-color: #D3D3CF;
+}
+tr:nth-child(odd) {
+    background-color: #EAEAE6;
+}
+th{
+    background-color: black;
+    color:white;
+    border-color:white;
+}
+
+button{
+
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+td{
+    text-align: center;
+
+}
+
+td img{
+    width : 50px;
+    height:50px;
+}
+
+#back_to_page{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+h1 {
+    color: navy;
+}
+/*label {
+    display: inline-block;
+    text-align:right;
+    width:115px;
+}*/
+/*input, textarea {
+   
+    font: 1em sans-serif;
+    margin-bottom: 10px;
+
+    width: 370px;
+    height:2.5em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    border: 1px solid #3385FF;
+}
+textarea {
+    vertical-align: top;
+
+    height: 5em;
+
+    resize: vertical;
+}*/
+#submit_button {
+    /* To position the buttons to the same position of the text fields */
+    /* same size as the label elements */
+    margin-left: 120px;
+    background-color: #475D9F;
+    color: white;
+    border-color: #475D9F;
+    border-radius: 0.5em;
+}
+
+nav{
+    background-color: #f1f1f1;
+    margin:0;
+    overflow: hidden;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+
+}
+
+.count{
+    color:blue;
+}
+
+#page_name{
+    margin-top: 0px;
+    padding: .5em;
+    background-color: #D3D3CF;
+}
+
+/* header.jsp ********************************/
+
+nav#header_menu ul li a {
+
+    color: black;
+
+    display: block;
+    line-height: 2em;
+
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+
+
+
+nav#menu {
+    color: black;
+    background-color: #CCFFCC;
+    font-weight: bold;
+    float:left;
+    display: block;
+    line-height: 3em;
+    margin: 20px ;
+    margin-bottom: 100px;
+    border : 1px solid black;
+    
+    text-decoration: none;
+    width:150px;
+
+}
+
+
+
+nav#header_menu ul li{
+    display:inline-block;
+    list-style-type: none;
+}
+
+
+nav .left{
+    float:left;
+    padding: 1em 1em;
+    font-weight: bold;
+    font-size:20px;
+    color: #009933;
+
+}
+
+nav .right{
+    float:right;
+    margin-right:2em;
+
+}
+
+
+
+/* footer.jsp *******************************/
+
+.copyright{
+    position:fixed;
+    bottom:0;
+
+    margin-top: 100px;;
+    width: 100%;
+
+    padding: 20px 20px;
+    background: #FF4D4D;
+    text-align:center;
+    color:white;
+}
+
+/* about.jsp ********************************/
+
+#how{
+    text-align: left;
+    margin: 0 auto;
+
+    margin-bottom: 100px;
+
+    color:black;
+    margin-top: 100px;
+    width:70%;
+    padding: 20px ; 
+    border : 1px black solid;
+}
+
+/* aboutl.jsp *********************************/
+
+nav#menu ul li{
+    display:block;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding-left: 1em;
+}
+
+nav#menu ul li a {
+
+    color: black;
+    text-align: left;
+
+    display: block;
+    text-decoration: none;
+}
+
+.main{
+
+    margin: 20px 40px 100px 20px;
+    text-align:left;
+    color:black;
+    float:left;
+    width:70%;
+    padding: 20px ; 
+    border : 1px black solid;
+}
+
+/* confirmc.jsp *********************************/
+
+#confirmc{
+    margin:0 auto;
+    text-align: center;
+    width: 500px;
+    padding: 1em;
+    margin-top: 100px;
+}
+/* contact.jsp *********************************/
+
+/*#contact_form{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width : 500px;
+    padding : 1em;
+
+}*/
+/* home.jsp *********************************/
+/*
+#home_page{
+    margin:0 auto;
+    margin-bottom: 100px;
+    width:1000px;
+    margin-top: 40px;
+}*/
+/* login.jsp *********************************/
+/*
+#login_form{
+    margin: 0 auto;
+    width : 500px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding : 1em;
+}*/
+
+#sign_up_link{
+    text-decoration: none;
+    font-weight: bold;
+    color:#475D9F;
+    
+
+}
+
+#signup_button {
+    /* To position the buttons to the same position of the text fields */
+    /* same size as the label elements */
+    float: left;
+    margin-left: 240px;
+    width:150px;
+    margin-top: 30px;
+    background-color: #475D9F;
+    color: white;
+    margin-bottom: 50px;
+    border-color: #475D9F;
+    border-radius: 0.5em;
+}
+
+#login_button {
+    /* To position the buttons to the same position of the text fields */
+    /* same size as the label elements */
+    margin-left: 10px;
+    width:70px;
+    margin-top: 30px;
+    background-color: #475D9F;
+    color: white;
+    margin-bottom: 50px;
+    border-color: #475D9F;
+    border-radius: 0.5em;
+}
+/* newstudy.jsp *********************************/
+
+#newstudy_form{
+    margin: 0 auto;
+    width : 500px;
+    margin-bottom: 100px;
+    padding : 1em;
+
+}
+
+/* participate.jsp *********************************/
+
+.participate{
+    width:70%;
+    float : left;
+    margin:30px;
+    margin-bottom: 100px;
+}
+
+#studies_table{
+    width:100%;
+}
+
+.participate h3{
+    margin-bottom: 30px;
+
+}
+
+.participate_button {
+    /* To position the buttons to the same position of the text fields */
+    /* same size as the label elements */
+    width:100px;
+
+    border-radius: 0.5em;
+}
+
+/* question.jsp *********************************/
+
+
+.question_section{
+    width:70%;
+    margin-bottom: 200px;
+    float:left;
+    margin:30px;
+}
+.question_section h3{
+    margin-bottom: 30px;
+}
+
+#question_page_image{
+    width: 250px;
+    height : 250px;
+    float:left;
+    vertical-align: middle;
+
+    margin: 10px;
+}
+
+#question_submit{
+    margin:0 auto;
+    width:80px;
+
+}
+#question_submit_div{
+    text-align:center;
+    margin-bottom: 100px;
+    padding: 1em;
+    clear:both;
+}
+
+#question_select{
+    float:left;
+    margin-top: 150px;
+
+}
+#question_ans_select{
+
+    margin-left: 50px;
+
+}
+
+
+/* recommend.jsp *********************************/
+
+#recommend_form{
+    margin: 0 auto;
+    width :500px;
+    padding : 1em;
+
+}
+
+#recommend_page_note{
+    font-weight: bold;
+    font-style: italic;
+    margin: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* signup.jsp *********************************/
+
+/*#signup_form{
+    margin: 0 auto;
+    width : 700px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 100px;
+    padding : 1em;
+
+}*/
+#signup_form label{
+    display: inline-block;
+    text-align:right;
+    width:135px;
+}
+
+/* studies.jsp *********************************/
+
+
+#studies{
+    padding: .5em;
+
+    background-color: #D3D3CF;
+
+}
+
+
+#add_new_study a{
+    margin-left: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+#my_studies_table{
+
+    margin: 20px 20px 20px 100px;
+    width:80%
+}
+
+
+#studies_section{
+    margin-bottom: 100px;
+}
+
+
+#edit_study_image{
+    width: 100%;
+    height : auto;
+
+    /*vertical-align: middle;*/
+    border : 2px solid black;
+    margin: 0px 10px 0px 10px;
+}
+
+
+/* Questions table management */
+#questions_table{
+	width: 80%;
+	margin:0 auto;
+}
+
+#questions_table tr:nth-child(even){
+	background-color: #b3ccff;
+}
+
+#questions_table tr:nth-child(odd){
+	background-color: #e5eeff;
+}
+
+#questions_table th{
+    background-color: #3377ff;
+    color:white;
+}
+
+
+/* Some buttons which need to be in blue */
+.report_button{
+	width:100%;
+    border-radius: 0.5em;
+    font: 1vw sans-serif;
+    margin-bottom: 10px;
+    width: 30%;
+    height:2.5em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #3385FF;
+    background-color: #0044cc;
+    color: #FFFFFF;
+    
+}
+
+.label a, .badge a {
+
+color: white;
+text-decoration: none;
+
+}
+
+.label a, .badge a {color:white;}      /* unvisited link */
+.label a, .badge a:visited {color:white;}  /* visited link */
+.label a, .badge a:hover {color:white;}  /* mouse over link */
+.label a, .badge a:active {color:white;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
